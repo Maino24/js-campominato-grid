@@ -1,11 +1,13 @@
 #griglia{
+   display: flex;
    width: 80%;
    border: 1px solid black; 
-   height: 20px;
+   
+   flex-wrap: wrap;
 }
 
-#quadratino{
+.quadrato{
+    border: 1px solid black;
     width: calc(100% / 10);
-    border: 1px solid black; 
-   height: 20px;
+    aspect-ratio: 1/1;
 }
