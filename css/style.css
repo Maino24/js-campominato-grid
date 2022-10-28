@@ -1,0 +1,11 @@
+#griglia{
+   width: 80%;
+   border: 1px solid black; 
+   height: 20px;
+}
+
+#quadratino{
+    width: calc(100% / 10);
+    border: 1px solid black; 
+   height: 20px;
+}
