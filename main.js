@@ -1,4 +1,11 @@
+
+document.getElementById(`generaLivelloUno`).onclick = function() {genera()}
+  
+function genera(){
+    document.getElementById(`generaLivelloUno`).style.display = "none";
+
 let griglia = document.getElementById(`griglia`);
+
 //console.log(griglia)
 
 //function genera(){
@@ -11,8 +18,8 @@ function creazioneQuadratino(){
  divQ.classList.add(`quadrato`);
  
  return divQ
-}
 
+}
 console.log(creazioneQuadratino)
 
 //somma = 0
@@ -29,14 +36,19 @@ for(let i = 0; i < 100; i++){
             somma = i
             somma = somma + 1
            console.log(somma)
+           document.write(somma);
+
+           //elemento.classList.add(`numerazione`)
     })
     
-    
+
 
    /* elemento.addEventListener(`click`, function(){
         console.log(this)
         this.classList.toggle(`numerazione`)
     })*/
     griglia.append(elemento)
+
+}
 
 }
