@@ -1,3 +1,6 @@
+document.getElementById(`griglia`).style.display = "none";
+
+
 /* PRIMO LIVELLO*/
 document.getElementById(`generaLivelloUno`).onclick = function() {genera()}
   
@@ -5,7 +8,8 @@ function genera(){
     document.getElementById(`generaLivelloUno`).style.display = "none";
     document.getElementById(`generaLivelloDue`).style.display = "none";
     document.getElementById(`generaLivelloTre`).style.display = "none";
-
+    document.getElementById(`titolo`).style.display = "none";
+    document.getElementById(`griglia`).style.display = "flex";
 let griglia = document.getElementById(`griglia`);
 
 //console.log(griglia)

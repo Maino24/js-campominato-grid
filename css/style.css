@@ -1,3 +1,8 @@
+.main{
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
 #griglia{
    display: flex;
    margin: auto;
