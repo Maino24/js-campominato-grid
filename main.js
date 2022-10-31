@@ -15,6 +15,9 @@ function creazioneQuadratino(){
 
 console.log(creazioneQuadratino)
 
+//somma = 0
+
+
 //inseriamo il quadrato creato dalla funzione nella griglia
 //creo ciclo for che mi crea i 100 quadratini
 for(let i = 0; i < 100; i++){
@@ -23,8 +26,17 @@ for(let i = 0; i < 100; i++){
         elemento.addEventListener(`click`, function(){
             console.log(this);
             this.classList.toggle(`attivazione`)
-
+            somma = i
+            somma = somma + 1
+           console.log(somma)
     })
+    
+    
+
+   /* elemento.addEventListener(`click`, function(){
+        console.log(this)
+        this.classList.toggle(`numerazione`)
+    })*/
     griglia.append(elemento)
 
 }
