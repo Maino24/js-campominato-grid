@@ -42,7 +42,7 @@ for(let i = 0; i < 100; i++){
             somma = i
             somma = somma + 1
            console.log(somma)
-           document.write(somma);
+           //document.write(somma);
 
            //elemento.classList.add(`numerazione`)
     })
@@ -67,7 +67,8 @@ function generaDue(){
     document.getElementById(`generaLivelloUno`).style.display = "none";
     document.getElementById(`generaLivelloDue`).style.display = "none";
     document.getElementById(`generaLivelloTre`).style.display = "none";
-
+    document.getElementById(`titolo`).style.display = "none";
+    document.getElementById(`griglia`).style.display = "flex";
     let griglia = document.getElementById(`griglia`);
 
 //console.log(griglia)
@@ -79,7 +80,7 @@ function generaDue(){
 function creazioneQuadratino(){
 
  const divQ = document.createElement(`div`);
- divQ.classList.add(`quadrato`);
+ divQ.classList.add(`quadratoDue`);
  
  return divQ
 
@@ -91,7 +92,7 @@ console.log(creazioneQuadratino)
 
 //inseriamo il quadrato creato dalla funzione nella griglia
 //creo ciclo for che mi crea i 100 quadratini
-for(let i = 0; i < 100; i++){
+for(let i = 0; i < 81; i++){
         let elemento = creazioneQuadratino()
         console.log(elemento);
         elemento.addEventListener(`click`, function(){
@@ -100,7 +101,7 @@ for(let i = 0; i < 100; i++){
             somma = i
             somma = somma + 1
            console.log(somma)
-           document.write(somma);
+           //document.write(somma);
 
            //elemento.classList.add(`numerazione`)
     })
@@ -127,6 +128,8 @@ function generaTre(){
     document.getElementById(`generaLivelloUno`).style.display = "none";
     document.getElementById(`generaLivelloDue`).style.display = "none";
     document.getElementById(`generaLivelloTre`).style.display = "none";
+    document.getElementById(`titolo`).style.display = "none";
+    document.getElementById(`griglia`).style.display = "flex";
 
     let griglia = document.getElementById(`griglia`);
 
@@ -139,7 +142,7 @@ function generaTre(){
 function creazioneQuadratino(){
 
  const divQ = document.createElement(`div`);
- divQ.classList.add(`quadrato`);
+ divQ.classList.add(`quadratoTre`);
  
  return divQ
 
@@ -151,7 +154,7 @@ console.log(creazioneQuadratino)
 
 //inseriamo il quadrato creato dalla funzione nella griglia
 //creo ciclo for che mi crea i 100 quadratini
-for(let i = 0; i < 100; i++){
+for(let i = 0; i < 49; i++){
         let elemento = creazioneQuadratino()
         console.log(elemento);
         elemento.addEventListener(`click`, function(){
@@ -160,7 +163,7 @@ for(let i = 0; i < 100; i++){
             somma = i
             somma = somma + 1
            console.log(somma)
-           document.write(somma);
+           //document.write(somma);
 
            //elemento.classList.add(`numerazione`)
     })

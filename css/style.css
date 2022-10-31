@@ -17,6 +17,17 @@
     aspect-ratio: 1/1;
 }
 
+.quadratoDue{
+    border: 1px solid black;
+    width: calc(100% / 9);
+    aspect-ratio: 1/1;
+}
+
+.quadratoTre{
+    border: 1px solid black;
+    width: calc(100% / 7);
+    aspect-ratio: 1/1;
+}
 
 .attivazione{
     background-color: lightblue;
