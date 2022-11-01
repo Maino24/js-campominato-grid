@@ -1,14 +1,14 @@
 document.getElementById(`griglia`).style.display = "none";
-let button = document.getElementById(`paly`)
+/*let button = document.getElementById(`paly`)
 let inputLivello = document.getElementById(`generaLivelloUNo`)
-let inputLivelloUno = document.getElementById(`generaLivelloUno`) 
-let inputLivelloDue = document.getElementById(`generaLivelloDue`) 
-let inputLivelloTre = document.getElementById(`generaLivelloTre`) 
+//let inputLivelloUno = document.getElementById(`generaLivelloUno`) 
+//let inputLivelloDue = document.getElementById(`generaLivelloDue`) 
+//let inputLivelloTre = document.getElementById(`generaLivelloTre`) 
 
 
 
-button.addEventListener(`click`, function(){
-//document.getElementById(`play`).onclick = function() {genera()}
+//button.addEventListener(`click`, function(){
+document.getElementById(`play`).onclick = function() {genera()}
 //function genera(){
 //const valueLivello = inputLivello.value;
 //const valueLivelloUno = inputLivelloUno.value;
@@ -19,9 +19,9 @@ button.addEventListener(`click`, function(){
 //}
 if(inputLivello = `uno`){
     function genera(){
-        document.getElementById(`generaLivelloUno`).style.display = "none";
-        //document.getElementById(`generaLivelloDue`).style.display = "none";
-        //document.getElementById(`generaLivelloTre`).style.display = "none";
+        //document.getElementById(`generaLivelloUno`).style.display = "none";
+        document.getElementById(`generaLivelloDue`).style.display = "none";
+        document.getElementById(`generaLivelloTre`).style.display = "none";
         document.getElementById(`titolo`).style.display = "none";
         document.getElementById(`griglia`).style.display = "flex";
     let griglia = document.getElementById(`griglia`);
@@ -61,11 +61,11 @@ if(inputLivello = `uno`){
     }
     
     }
-}else if(inputLivello = inputLivelloDue){
+}else if(inputLivello = `due`){
 
     function generaDue(){
         document.getElementById(`generaLivelloUno`).style.display = "none";
-        document.getElementById(`generaLivelloDue`).style.display = "none";
+        //document.getElementById(`generaLivelloDue`).style.display = "none";
         document.getElementById(`generaLivelloTre`).style.display = "none";
         document.getElementById(`titolo`).style.display = "none";
         document.getElementById(`griglia`).style.display = "flex";
@@ -112,7 +112,7 @@ if(inputLivello = `uno`){
     function generaTre(){
         document.getElementById(`generaLivelloUno`).style.display = "none";
         document.getElementById(`generaLivelloDue`).style.display = "none";
-        document.getElementById(`generaLivelloTre`).style.display = "none";
+        //document.getElementById(`generaLivelloTre`).style.display = "none";
         document.getElementById(`titolo`).style.display = "none";
         document.getElementById(`griglia`).style.display = "flex";
     
@@ -149,14 +149,14 @@ if(inputLivello = `uno`){
     
     }
 }
-})
-
+//})
+*/
 
 
 
 
 /* PRIMO LIVELLO*/
-/*document.getElementById(`generaLivelloUno`).onclick = function() {genera()}
+document.getElementById(`generaLivelloUno`).onclick = function() {genera()}
 function genera(){
     document.getElementById(`generaLivelloUno`).style.display = "none";
     document.getElementById(`generaLivelloDue`).style.display = "none";
@@ -189,7 +189,6 @@ for(let i = 0; i < 100; i++){
             somma = i
             somma = somma + 1
            console.log(somma)
-           
     })
     
 
@@ -201,10 +200,10 @@ for(let i = 0; i < 100; i++){
 
 }
 
-*/
+
 /* SECONDO LIVELLO */
 
-/*document.getElementById(`generaLivelloDue`).onclick = function() {generaDue()}
+document.getElementById(`generaLivelloDue`).onclick = function() {generaDue()}
 function generaDue(){
     document.getElementById(`generaLivelloUno`).style.display = "none";
     document.getElementById(`generaLivelloDue`).style.display = "none";
@@ -249,11 +248,11 @@ for(let i = 0; i < 81; i++){
 
 }
 }
-*/
+
 
 /* TERZO LIVELLO */
 
-/*document.getElementById(`generaLivelloTre`).onclick = function() {generaTre()}
+document.getElementById(`generaLivelloTre`).onclick = function() {generaTre()}
 function generaTre(){
     document.getElementById(`generaLivelloUno`).style.display = "none";
     document.getElementById(`generaLivelloDue`).style.display = "none";
@@ -263,7 +262,7 @@ function generaTre(){
 
     let griglia = document.getElementById(`griglia`);
     
-}
+
 
 function creazioneQuadratino(){
 
@@ -293,4 +292,4 @@ for(let i = 0; i < 49; i++){
     griglia.append(elemento)
 
 }
-*/
+}
