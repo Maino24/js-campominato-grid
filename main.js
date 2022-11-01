@@ -190,7 +190,8 @@ for(let i = 0; i < 100; i++){
             somma = somma + 1
            console.log(somma)
            elemento.innerText= `${somma}`
-    })
+
+           })
     
 
 
