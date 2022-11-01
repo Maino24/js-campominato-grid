@@ -239,6 +239,7 @@ for(let i = 0; i < 81; i++){
             somma = i
             somma = somma + 1
            console.log(somma)
+           elemento.innerText= `${somma}`
            
     })
     
@@ -287,7 +288,8 @@ for(let i = 0; i < 49; i++){
             somma = i
             somma = somma + 1
            console.log(somma)
-          
+           elemento.innerText= `${somma}`
+
     })  
 
     griglia.append(elemento)

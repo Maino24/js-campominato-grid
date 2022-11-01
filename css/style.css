@@ -34,8 +34,10 @@ html{
 }
 
 .attivazione{
+    display: flex;
     background-color: #7FFFD4;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
 }
 
-.numerazione{
-}
