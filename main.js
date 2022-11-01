@@ -132,7 +132,7 @@ function generaTre(){
     document.getElementById(`griglia`).style.display = "flex";
 
     let griglia = document.getElementById(`griglia`);
-
+    
 //console.log(griglia)
 
 //function genera(){

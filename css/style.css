@@ -1,3 +1,7 @@
+html{
+    background-color: #7FFFD4;
+}
+
 .main{
     justify-content: space-between;
     vertical-align: middle;
@@ -30,7 +34,7 @@
 }
 
 .attivazione{
-    background-color: lightblue;
+    background-color: #7FFFD4;
 }
 
 .numerazione{
